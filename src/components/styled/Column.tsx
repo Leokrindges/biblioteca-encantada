@@ -22,7 +22,10 @@ export const Column = styled.div<ColumnProps>`
 
   span {
     font-size: 0.7rem;
-    color: #fff;
+    font-weight: 500;
+    color: #425717;
+    margin-right: 10px;
+
   }
 
   h1 {

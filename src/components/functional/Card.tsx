@@ -1,7 +1,7 @@
 import { CardStyled } from "../styled/CardStyled";
 
 interface CardProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   borderColor?: string;
   borderSize?: string;
   borderLinha?: "solid" | "none";

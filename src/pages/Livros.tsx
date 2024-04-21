@@ -1,12 +1,12 @@
 import { Fragment } from "react/jsx-runtime";
 import { DefaultLayouts } from "../config/layout/DefaultLayout";
-import { MainServicos } from "../components/functional/MainServicos";
+import { MainLivros } from "../components/functional/MainLivros";
 
-export function Servicos() {
+export function Livros() {
   return (
     <Fragment>
       <DefaultLayouts>
-        <MainServicos></MainServicos>
+        <MainLivros></MainLivros>
       </DefaultLayouts>
     </Fragment>
   );

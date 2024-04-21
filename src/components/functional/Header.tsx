@@ -19,13 +19,10 @@ export function Header() {
             <LinkStyled as={Link} to="/quem-somos">
               Quem Somos
             </LinkStyled>
-            <LinkStyled as={Link} to="/servicos">
-              Serviços
+            <LinkStyled as={Link} to="/livros">
+              Livros
             </LinkStyled>
-            <LinkStyled as={Link} to="/planos">
-              Planos
-            </LinkStyled>
-            <LinkStyled as={Link} to="/contatos">
+            <LinkStyled as={Link} to="/cadastrar">
               Cadastrar
             </LinkStyled>
           </Column>

@@ -1,9 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home } from "../../pages/Home";
-import { Planos } from "../../pages/Planos";
 import { QuemSomos } from "../../pages/QuemSomos";
-import { Servicos } from "../../pages/Servicos";
-import { Contato } from "../../pages/Cadastrar";
+import { Cadastrar } from "../../pages/Cadastrar";
+import { Livros } from "../../pages/Livros";
 
 const router = createBrowserRouter([
   {
@@ -11,20 +10,16 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/planos",
-    element: <Planos />,
+    path: "/livros",
+    element: <Livros />,
   },
   {
     path: "/quem-somos",
     element: <QuemSomos />,
   },
   {
-    path: "/servicos",
-    element: <Servicos />,
-  },
-  {
-    path: "/contatos",
-    element: <Contato />,
+    path: "/cadastrar",
+    element: <Cadastrar />,
   },
 ]);
 
